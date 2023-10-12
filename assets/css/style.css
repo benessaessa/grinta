@@ -1,0 +1,124 @@
+@font-face {
+    font-family: nexaBold;
+    src: url(../fonts/Nexa-Bold.otf);
+}
+@font-face {
+    font-family: nexaLight;
+    src: url(../fonts/Nexa-Light.otf);
+}
+.nexaLight{
+    font-family: nexaLight;
+}
+.nexaBold{
+    font-family: nexaBold;
+}
+.textPrimary{
+    color:  #012169;
+}
+.textDark{
+    color: #15191D;
+}
+.textGray{
+    color: #6A6A6A;
+}
+.fw-400{
+    font-weight: 400;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-22{
+    font-size: 22px;
+}
+.line-height-24{
+    line-height: 24px;
+}
+.pharmaSection{
+    background: url(../images/bg.png);
+    background-size: cover;
+    max-height: 700px;
+}
+.pharmaSection .imageLogo{
+    margin-top: 150px;
+}
+.pharmaSection .title{
+    font-size: 24px;
+    line-height: 24px;
+    padding: 32px 0px;
+}
+.pharmaSection .description{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.what_do{
+    background: rgba(245, 245, 245, 0.50);
+}
+.where_we{
+    background: url(../images/we.png);
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+.mission .mission_img{
+    width: 100%;
+    object-fit: fill;
+    max-height: 550px;
+    height: 100%;
+}
+.textSystem{
+    font-size: 20px;
+}
+.textHeaderSystem{
+    font-size: 32px;
+}
+.secondTeam{
+    grid-template-columns: auto auto auto auto auto;
+}
+.imgTeam{
+    width: 200px;
+    height: 200px;
+}
+.linkTeam{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkTeam a:hover{
+    color: #15191D;
+}
+@media screen and (min-width:1300px) {
+    .pharmaSection .description{
+        font-size: 24px;
+    }
+}
+@media screen and (max-width:500px){
+    .pharmaSection .imageLogo{
+        margin-top: 80px;
+    }
+    .textSystem{
+        font-size: 12px;
+    }
+    .textHeaderSystem{
+        font-size: 24px;
+    }
+    .pharmaSection .title{
+        font-size: 16px;
+    }
+    .pharmaSection .description{
+        font-size: 16px;
+    }
+    .imageLogo .imgLogo{
+        width: 158px;
+    }
+    .secondTeam{
+        grid-template-columns: auto auto;
+    }
+    .imgTeam{
+        width: 152px;
+        height: 152px;
+        object-fit: cover;
+    }
+}
